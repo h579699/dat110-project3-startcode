@@ -32,7 +32,6 @@ public class ChordLookup {
 		
 		// get the successor of the node
 		NodeInterface succ = node.getSuccessor();
-		
 		// get the stub for this successor (Util.getProcessStub())
 		succ = Util.getProcessStub(succ.getNodeName(), succ.getPort());
 		
