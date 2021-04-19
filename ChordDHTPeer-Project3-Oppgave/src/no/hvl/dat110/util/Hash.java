@@ -49,7 +49,6 @@ public class Hash {
 		
 		// get the digest length
 		
-		
 		// compute the number of bits = digest length * 8
 		int antallBits = bitSize();
 		
